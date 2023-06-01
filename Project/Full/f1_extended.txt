@@ -1,0 +1,24 @@
+#ADD:	MACRO P1,P2,P3
+	    LDAB A
+	    NEGB
+	    #ENDM
+#DIV:   MACRO D,A,P
+	    STAB D
+	    LDAA #3
+	    #ENDM
+#NEG:   MACRO D, A
+	    LDAB A
+	    NEGB
+	    STAB D
+	    #ENDM
+	    PROG
+	L1: LDAA #20H
+	    LDAA #3
+	    #NEG 100H,200H
+	    #M1
+	    #M2 2,3
+	    INCA
+	    #if ($2='x') NEG 300H,400H
+	    #if ($2='ABC') M3 200,300
+	    STAA 500H
+	    END

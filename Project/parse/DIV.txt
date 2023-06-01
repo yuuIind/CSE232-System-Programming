@@ -1,0 +1,9 @@
+#DIV: MACRO D, A1, P
+	LDAB P
+L1	ASR A1
+	DECB
+	BNE L1
+	LDAB A1
+	STAB D
+	#ENDM
+	
