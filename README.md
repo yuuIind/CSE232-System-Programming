@@ -9,12 +9,15 @@ Includes assignment answers and Group Project
 
 # Group Project
 
-## Contributers:
-- Mert Korkut
-- Muhammet Hakan Taştan
-- Ahmet Berke Kösretaş
-- Buse Karakaş
-- Umutcan Ağgez
+I was responsible with implementation of `parse()` function and `DIV` macro. I also helped other members with their task.
+
+### Contributers:
+---
+- Mert Korkut : `read()` function and `REM` macro
+- Muhammet Hakan Taştan : `parse()` function and `DIV` macro
+- Buse Karakaş : `is_macro()` function and `MULT` macro
+- Ahmet Berke Kösretaş : `expand()` function and `SUB` macro
+- Umutcan Ağgez : `createPT()` function and `ADD` macro
 
 # Project details
 - Full instructions are on '232proj23s.pdf' file
