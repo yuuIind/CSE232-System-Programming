@@ -11,7 +11,7 @@ Includes assignment answers and Group Project
 
 Implementation a macro-processor for M6800 assembly language in C programming language. I was responsible with implementation of `parse()` function and `DIV` macro. I also helped other members with their task. The codes and documentation is under `Project` folder. [Click here to go](https://github.com/yuuIind/CSE232-System-Programming/tree/main/Project). 
 
-[Contributers](https://github.com/yuuIind/CSE232-System-Programming/edit/main/README.md#contributers) and [Project details](https://github.com/yuuIind/CSE232-System-Programming/edit/main/README.md#project-details) are as follows:
+[Contributers](#contributers) and [Project details](#project-details) are as follows:
 
 ### Contributers:
 ---
